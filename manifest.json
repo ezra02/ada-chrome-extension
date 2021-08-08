@@ -1,0 +1,23 @@
+{
+  "name":"ada-chrome-extension",
+  "version":"1.0",
+  "manifest_version":"3",
+  "description":"cool chrome extession",
+  "browser_action":{
+    "default_popup":"index.html",
+    "default_icon":"icons/default.png"
+  },
+  "icons":{
+   "128":"128.png",
+   "48":"48.png",
+   "16":"16.png"
+  },
+  "options_page":"options.html",
+  "permissions":[
+    "activeTab",
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions":[]
+}
